@@ -1,7 +1,7 @@
-# Scraper_Indicadores_Economicos
+# Web_Scraper-Economic-Indicators-Colombia
 
 By: Oliver Lozano
 
-Vamos a hacer un scraper con Selenium y Xpath de los principales indicadores economicos de Colombia
+Let's do a scraper for the principal economic indicators for Colombia using Selenium and Xpath
 
 ## License
