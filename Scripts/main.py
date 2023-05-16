@@ -8,11 +8,10 @@ import csv
 
 
 
-
 def indicator(today):
-    os.chdir('F:\Documentos\Proyectos DS\Web_Scraper-Economic-Indicators-Colombia\Results')
+    os.chdir('.\Results')
     with open('{}.csv'.format(today), 'w', encoding= 'utf-8', newline='') as f:
-        writer = csv.writer(f, delimiter=',')
+        writer = csv.writer(f, delimiter=',')   
         
         writer.writerow(['Indicadores Cambiarios'])
         
@@ -41,9 +40,11 @@ def indicator(today):
 def today_file(**today):
     today = datetime.date.today().strftime('%d-%m-%Y')
     indicator(today)
+    
 
 def run():
     today_file()
+
     
 if __name__ == '__main__':
     run()

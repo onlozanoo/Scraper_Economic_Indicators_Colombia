@@ -25,11 +25,9 @@
     * //*[@id="block-banrepindicatorsblock"]/div/div[1]/div/div[3]/div[2]
 5. Inflacion Mensual (Dane):
     * //*[@id="t3-content"]/div/article/section/div[2]/div[2]/table/tbody/tr/td/h1/strong/a
-6. PIB Anual (Dane):
-    * //*[@id="t3-content"]/div/article/section/div[2]/div[3]/table/tbody/tr/td/h1/strong/a
-7. Desempleo (Dane):
+6. Desempleo (Dane):
     * //*[@id="t3-content"]/div/article/section/div[2]/div[1]/table/tbody/tr/td/h1/strong/a
-8. Inflacion año corrido (La Republica): 
+7. Inflacion año corrido (La Republica): 
     * //*[@id="vue-container"]/div/div/div[2]/div/div/div[4]/div[2]/div[1]/div[1]/span
 
 ## Financial Indicators
